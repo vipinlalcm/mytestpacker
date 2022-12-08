@@ -10,7 +10,7 @@
 # vSphere Objects
 
 vcenter_insecure_connection     = true
-vcenter_server                  = "internal-vcenter.i.cygate.io"
+vcenter_server                  = "internal-vcenter.i.test.io"
 vcenter_datacenter              = "KSD"
 vcenter_cluster                 = "cluster01"
 vcenter_datastore               = "int-dst-0001"

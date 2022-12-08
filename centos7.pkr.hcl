@@ -26,7 +26,7 @@ packer {
 
 variable "vcenter_username" {
   type        = string
-  description = "The username to login to the vCenter Server instance. (e.g. admin-vsphere@cygate.io)"
+  description = "The username to login to the vCenter Server instance. (e.g. admin-vsphere@test.io)"
   default     = env("PKR_VAR_vcenter_username")
   sensitive   = false
 }
@@ -62,7 +62,7 @@ variable "vcenter_insecure_connection" {
 
 variable "vcenter_server" {
   type        = string
-  description = "The fully qualified domain name or IP address of the vCenter Server instance. (e.g. 'vcenter.cygate.io')"
+  description = "The fully qualified domain name or IP address of the vCenter Server instance. (e.g. 'vcenter.test.io')"
   default     = ""
 }
 
